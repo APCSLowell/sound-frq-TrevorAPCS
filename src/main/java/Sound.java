@@ -23,7 +23,7 @@ public class Sound
         changed++
       }else if(samples[i] < -limit){
         samples[i] = -limit;
-        changed++
+        changed++;
       }
     }
     return changed;
