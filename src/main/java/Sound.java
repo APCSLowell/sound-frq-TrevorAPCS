@@ -17,7 +17,7 @@ public class Sound
   {  
     /* to be implemented in part (a) */
     int changed = 0;
-    for(int i = 0; i < samples.lengthl i++){
+    for(int i = 0; i < samples.length; i++){
       if(samples[i] > limit){
         samples[i] = limit;
         changed++
